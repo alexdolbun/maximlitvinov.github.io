@@ -1,55 +1,80 @@
 body{
-    background:#3B3C38;
+    background:snow;
+    background-size:cover; 
     font-family: 'Play', sans-serif; 
     font-size:30px; 
-    margin:0px;
+    margin: 0;
+    width:100%;
+    height:100%;
 }
-.imglogo{
-    padding-right:900px; 
+
+@media screen and (max-width: 100%) {
+    body {width: 100%;}
 }
-.header{
-    margin:0 auto;  
+
+.header{  
     background:#3B3C38; 
     position:fixed;
-    text-align: center; 
-    height:75px;
+    text-align:center; 
+    height:50px;
     width:100%;
+    top:-2px;
+    padding-top:10px; 
 }
+
+
+.imglogo{
+    width:400px;
+    height:200px;
+    margin-top:-80px;
+    margin-right:1400px;
+    padding-right:80px;
+    padding-left:-200px; 
+}
+
+
 .about{
-    margin-right:200px; 
+    margin-left:700px; 
     display: inline-block;   
 }
 .contacts{
-    padding-right:90px; 
     display: inline-block;
-    width:20px;   
+    width:145px;
+    margin-left:40px;  
 }
 .github{
-    padding-left:25px;
+    padding-left:50px;
     display: inline-block; 
-    width:10px;
       
 }
 .container-center{
+    padding-top:25px;
     text-align:center;
-    width: 100%;
+    width:100%;
     height:400px;
     color:white;
     font-size:45px;
     font-family: 'Exo 2', sans-serif;
     text-shadow: 3px 3px 3px black;
     background:#292A27;
+    opacity:50%;
+}
+.skills{ 
+    font-size:40px; 
+    height:50px;
+    margin-top:-50px; 
 }
 
-.content{
+.content{  
     background:#d1cdc4;
-    width: 100%;
+    width:100%;
     height:500px; 
 }
 
 .footer{
+    padding-left:3px; 
     color:#4e525b; 
-    width: 100%;
+    width:100%;
     height:150px;
     background:#20232A;
 }
@@ -63,17 +88,19 @@ a:hover{
 }
 
 .socialmedia{
-    padding-top:20px;
+    padding-top:40px;
     background:snow;
-    width:100%;
+    width:30%;
     height:100px; 
     text-decoration:underline;
+    font-weight:bold;
     padding-left:600px;
 }
 .socialbuttons{
-    padding:10px;
+    margin-top:-30px;
+    padding-bottom:20px;
     background:snow;
-    width:100%;
+    width:30%;
     padding-left:600px;
     display: inline-block;
 }
