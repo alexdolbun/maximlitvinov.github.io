@@ -5,17 +5,119 @@ body{
     font-size:30px; 
     margin: 0;
     width:100%;
-    height:100%;
+    max-width:1980px;
 }
 
-@media screen and (max-width: 100%) {
-    body {width: 100%;}
+#wrapper{
+    margin:0 auto;
+    width:100%;
+    max-width:1980px;
+}
+@media(max-width:1005px){
+ 
+    .github{
+        margin-left:20px;
+    }
+    .contacts{
+        margin-right:10px; 
+    }
+    .about{
+        margin-right:20px;
+    }
 }
 
-.header{  
+    @media(max-width:900px){
+    .imglogo{
+        display:none; 
+    }
+    }
+
+    @media(max-width:730px){
+    .header{
+        text-align:left; 
+    }
+    .about{
+        font-size:12px;
+        margin-left:5px;
+    }
+    .contacts{
+        font-size:12px;
+    }
+    
+    .github{
+        font-size:12px;
+        margin-left:10px;
+    }
+    
+    .imglogo{
+        display: none;
+    }
+}
+
+@media(max-width:437px){
+    .about{ 
+        margin-left: auto;
+        display:inline-block;
+        font-size:7px;
+        
+    }
+    .contacts{
+        margin-left: auto;
+        display:inline-block;
+        font-size:7px;
+    }
+    
+    .github{
+        margin-left:5px;
+        display:inline-block;
+        font-size:7px;
+    }
+    
+    .imglogo{
+        display: none;
+    }
+}
+
+
+
+@media(max-width:390px){
+    .header{
+        position: absolute;
+    }
+    .about{
+        white-space: nowrap;
+        width: 10px;
+        display:inline-block;
+        font-size:6px;
+        
+    }
+    .contacts{
+        white-space: nowrap;
+        width:10px ;
+        height:auto;
+        display:inline-block;
+        font-size:6px;
+    }
+    
+    .github{
+        white-space: nowrap;
+        width:10px ;
+        display:inline-block;
+        font-size:6px;
+    }
+    
+    .imglogo{
+        display: none;
+    }
+}
+
+
+.header{ 
+    font-size:21px; 
+    max-width:1980px; 
     background:#3B3C38; 
     position:fixed;
-    text-align:center; 
+    text-align:right; 
     height:50px;
     width:100%;
     top:-2px;
@@ -24,9 +126,9 @@ body{
 
 
 .imglogo{
-    width:400px;
-    height:200px;
-    margin-top:-80px;
+    width:280px;
+    height:auto;
+    margin-top:-60px;
     margin-right:1400px;
     padding-right:80px;
     padding-left:-200px; 
@@ -34,22 +136,26 @@ body{
 
 
 .about{
-    margin-left:700px; 
-    display: inline-block;   
-}
-.contacts{
     display: inline-block;
-    width:145px;
-    margin-left:40px;  
+    margin-top:15px;
+     
 }
-.github{
-    padding-left:50px;
+.contacts{ 
+    display: inline-block;
+    max-width:9%;
+    height:auto; 
+    margin-top:10px;
+}
+.github{ 
+    margin-right:250px;
     display: inline-block; 
-      
+    max-width:7.7%;
+    margin-top:10px; 
 }
 .container-center{
     padding-top:25px;
     text-align:center;
+    max-width:1980px;
     width:100%;
     height:400px;
     color:white;
@@ -71,11 +177,28 @@ body{
     height:500px; 
 }
 
-.footer{
-    padding-left:3px; 
+
+.socialmedia{
+    text-align:center;
+    padding-top:40px;
+    width:100%;
+    height:100px; 
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.socialbuttons{
+    text-align:center;
+    margin-top:-30px;
+    padding-bottom:20px;
+    width:100%;
+    display: inline-block;
+}
+
+.footer{ 
     color:#4e525b; 
     width:100%;
-    height:150px;
+    height:75px;
     background:#20232A;
 }
 
@@ -85,22 +208,4 @@ a{
 }
 a:hover{
     color:orange;
-}
-
-.socialmedia{
-    padding-top:40px;
-    background:snow;
-    width:30%;
-    height:100px; 
-    text-decoration:underline;
-    font-weight:bold;
-    padding-left:600px;
-}
-.socialbuttons{
-    margin-top:-30px;
-    padding-bottom:20px;
-    background:snow;
-    width:30%;
-    padding-left:600px;
-    display: inline-block;
 }
