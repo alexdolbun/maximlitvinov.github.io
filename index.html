@@ -1,41 +1,76 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width", intial-scale=1, shrink-to-fit=no'>
-        <title>Maxim Litvinov</title>
-        <link href="css/main.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Exo+2|Play&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="images/icon.png" type="image/png">
-        <meta name="viewport" content="width=device-width">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./css/template.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Monda:700|PT+Sans+Narrow:700&display=swap" rel="stylesheet">
+    <title>MaximLitvinov | maximlitvinov.com</title>
+</head>
 <body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+						<button class="navbar-toggle collapsed menu_btn" data-toggle="collapse" data-target="#top_menu">
+						</button>
+                        <a href="index.html" class="brandlogo">
+                        <img src="./images/me.png" class="me" >
+					   maximlitvinov.com
+						</a>
+					</div>
 
-<div id="wrapper">
-    <div class="header">
-        <a href="#"><div class="about">Обо мне</div></a>
-            <a href="#"><div class="contacts">Контакты</div></a>
-                    <div class="github"><a href="https://github.com/maximlitvinov">GitHub</a></div>
-                    <a href="index.html"> <img src="images/logo.png" alt="logo" class="imglogo"></a>
+                    <div class="collapse navbar-collapse navbar-right" id="top_menu">
+                        <ul class="menu" >
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="https://github.com/maximlitvinov" target="_blank">GitHub</a></li>
+                            <li><a href="#">Обо Мне</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
                 </div>
-                    
-                        </div>               
-    <div class="container-center">
-        <h1>Maxim Litvinov</h1>
-            <div class="skills"><span>Вёрстка сайтов HTML+CSS+JS.</span></div>
-    </div>
+            </div>
+        </nav>
 
-        <div class="content">Какой-то контент</div>
-           <div class="socialmedia">Я в социальных сетях</div> 
-            <div class="socialbuttons">
-                    <a href=https://www.linkedin.com/in/maximlitvinovin/ target="_blank"> <img src="images/in.png" alt="Linkedin" class="in" width="100" height="100"></a>
-                        <a href="https://github.com/maximlitvinov" target="_blank"> <img src="images/git.png"alt="GitHub" class="git" width="100" height="100"></a>
-                            <a href= https://vk.com/mlitvinov99 target="_blank"><img src="images/vkontakte.png" alt="vk" class="vk" width="100" height="100"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 text">
+                    <div class="name1">Maxim Litvinov</div>
+                    <div class="name2">Вёрстка сайтов</div>
+                    <div class="contact">Contact Me:<br>
+                <a href="https://www.linkedin.com/in/maximlitvinovin/" target="_blank"> <img class="linked" alt="Linkedin" src="./images/linked.png"></a>
+                <a href="https://github.com/maximlitvinov" alt="GitHub" target="_blank"><img class="git" src="./images/git.png"></a>
+                <a href="https://vk.com/maximlitvinov_v" target="_blank" alt="Vkontakte"><img class="vk" src="./images/vk.png">
+
+                        </div>
+                    <span id="figura"></span>
+                </div>
+                    <div  class="col-sm-4">
+                        <div class="col-sm-6 blog_1">
+                            <div class="blog" id="blog_one">
+                                <p id="skill_text"></p>
+                                <p id="number">HTML</p> 
+                            </div>
+                            <div class="blog" id="blog_two">
+                                <p id="number">CSS</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="blog" id="blog_three">
+                                <p id="number">JS</p>
+                            </div>
+                            <div class="blog" id="blog_four">
+                                <p id="number">PHP</p>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
-
-        <div class="footer">
-        © Maxim Litvinov 2019-2020
-            </div>
+    </header>
 
 </body>
 </html>

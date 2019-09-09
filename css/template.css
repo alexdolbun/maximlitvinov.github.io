@@ -1,0 +1,189 @@
+
+body{
+    min-width: 320px;
+}
+
+.container{
+    padding: 0;
+    width: 1200px;
+}
+
+
+/* HEADER */
+header{
+    height: 720px;
+    background: url("../images/body.jpg") no-repeat center center;
+
+}
+nav {
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 2px solid #ffff;
+    border-radius:150px;
+
+}
+
+.menu {
+    list-style-type: none;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.menu li a {
+	text-shadow:1px 1px 2px black;
+    color: white;
+    padding-bottom: 10px;
+}
+.menu li a:hover,
+.menu li a:focus {
+    text-decoration: none;
+    color: #706f70;
+    border-bottom: 1px solid #706f70;
+}
+
+.navbar-header .logo{
+    padding-top: 25px;
+    background: url("../images/ygol.png");
+    width: 316px;
+    height: 100px;
+}
+
+
+.brandlogo {
+	color:#ffff;
+	text-shadow: 1px 1px 2px black;
+	text-decoration:none;
+	font-size:21px;
+	font-family: 'Monda', sans-serif;
+}
+
+.text{
+    text-transform: uppercase;    
+}
+
+.text h1{
+    font-size: 55px;
+    color: #fff;
+    font-family: "Museo Sans Cyrl 700";
+    padding-top: 118px;
+    line-height: 0.6;
+    clip-path: polygon(0 100%, 0 0, 100% 57%, 94% 100%);
+}
+
+.text p {
+    font-size: 25px;
+    font-family: "Museo Sans Cyrl 300";
+    color: #fff;
+}
+
+.skil{
+    padding-top: 65px;
+}
+.blog_1{
+    margin-right: 10px;
+    margin-left: -10px;
+}
+.blog{
+    margin-top: 10px;
+    padding-top: 25px;
+    color: #b6b6b6;
+    width: 180px;
+    height: 180px;
+}
+
+#blog_one{
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+}
+#blog_two{
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+}
+#blog_three{
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+}
+#blog_four{
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+}
+
+#blog_one:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #54585f;
+    border-right: 1px solid #54585f;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+}
+#blog_two:hover{
+    cursor: pointer;
+    border-right: 1px solid #54585f;
+    border-top: 1px solid #54585f;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+}
+#blog_three:hover{
+    cursor: pointer;
+    border-left: 1px solid #54585f;
+    border-bottom: 1px solid #54585f;
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+}
+#blog_four:hover{
+    cursor: pointer;
+    border-left: 1px solid #54585f;
+    border-top: 1px solid #54585f;
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+}
+p{
+    text-align: center;
+    line-height: 1;
+}
+
+#gg{
+    font-size: 20px;
+    font-family: "Museo Sans Cyrl 700";
+}
+
+#number{
+	color:white;
+	text-shadow: 1px 1px 2px black;
+    font-size: 60px;
+    font-family: 'Monda', sans-serif;
+}
+#skill_text p{
+    font-size: 72px;
+    font-family: 'Monda', sans-serif;
+}
+.contact{
+	padding-top:120px;
+	padding-left:430px; 
+	text-align:center;
+	font-size:26px;
+	font-family: 'Fredoka One', cursive;
+	color:#ffff;
+	text-shadow: 1px 2px 2px black;
+}
+.name1 {
+	padding-top:150px;
+	padding-right:25px;
+	font-size:64px;
+	font-family: 'Fredoka One', cursive;
+	color:white;
+	text-shadow: 1px 2px 2px black;}
+
+.name2 {
+	text-align:center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:36px;
+	color:white;
+	padding-left:120px; 
+	text-shadow: 2px 2px 3px black;
+	display:table;
+}
+.linked{
+	padding-top:20px;
+}
+.git{
+	padding-top:20px;
+}
+.vk{
+	padding-top:20px;
+}
+.me{
+	padding-right:20px;
+}
