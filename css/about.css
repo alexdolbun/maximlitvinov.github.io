@@ -1,0 +1,14 @@
+body{
+    min-width: 320px;
+    background: url("../images/body.jpg") no-repeat center center;}
+}
+header{
+    height: 720px;}
+    
+.container{
+        padding: 0;
+        width: 1200px;
+        font-size:72px;
+        font-family: 'Rajdhani', sans-serif;
+        text-align: center;
+    }
