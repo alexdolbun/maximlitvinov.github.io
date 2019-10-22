@@ -1,4 +1,3 @@
-
 body{
     background: url("../images/body.jpg") no-repeat ;
     background-size:cover; 
@@ -6,6 +5,8 @@ body{
     font-family: 'Cairo', sans-serif;
     font-family: 'Rajdhani', sans-serif;
     font-family: 'Changa', sans-serif;
+    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Quicksand', sans-serif;   
     min-width:320px ;
     
 }
@@ -47,6 +48,7 @@ nav {
     padding: 0 20px;
 }
 .menu li a {
+    position:relative;
     text-decoration: none;
 	text-shadow:1px 1px 2px black;
     color: white;
@@ -61,7 +63,6 @@ nav {
 
 
 .brandlogo {
-    position: relative;
     margin-left:170px; 
 	color:#ffff;
 	text-shadow: 1px 1px 2px black;
@@ -73,36 +74,19 @@ nav {
     text-decoration: none;
     color: #706f70;
 }
-
-
-
-#skill_text p{
-    font-size: 72px;
-    font-family: 'Rajdhani', sans-serif;
+.contain{
+    font-family: 'Cairo', sans-serif;
+    text-align:center;
+    font-size:35px;
+    color:white;
+    text-shadow:4px 4px 4px #000 ;
 }
 .contact{
-    width:400px;
-    position: relative;  
-    margin-left:950px;
-    margin-top:-250px;
-	text-align:center;
-	font-size:26px;
-	font-family: 'Cairo', sans-serif;
-	color:#ffff;
-	text-shadow: 1px 2px 2px black;
+    margin-left:1300px;
+    margin-top:-50px;
 }
-.name2 {
-    text-align:center; 
-    position:relative;
-	padding-top:50px;
-	padding-left:700px;
-    font-size:60px;
-    font-family: 'Rajdhani', sans-serif;
-	color:white;
-    text-shadow: 1px 2px 2px black;}
-
-
 .linked{
+    display:table;
     width:72px;
     height:72px;}
     
@@ -110,7 +94,7 @@ nav {
         width: 72px;
         height: 72px;
         border: 2px #ffff solid; 
-        display:inline-block;
+        display:table;
         border-radius: 50%;
         background:#ffff;
         overflow: hidden;}
@@ -123,6 +107,7 @@ nav {
             background:#706f70}
 
 .git{
+    display:table;
     width:72px;
     height:72px;}
         
@@ -130,7 +115,7 @@ nav {
         width: 72px;
         height: 72px;
         border: 2px #ffff solid; 
-        display:inline-block;
+        display:table;
         border-radius: 50%;
         background:#ffff;
         overflow: hidden;}
@@ -143,6 +128,7 @@ nav {
             background:#706f70}
 
 .vk{
+    display:table;
     width:72px;
     height:72px;}
 
@@ -150,7 +136,7 @@ nav {
         width: 72px;
         height: 72px;
         border: 2px #ffff solid; 
-        display:inline-block;
+        display:table;
         border-radius: 50%;
         background:#ffff;
         overflow: hidden;}
@@ -163,6 +149,7 @@ nav {
             background:#706f70}
         
 .inst{
+    display:table;
     width:72px;
     height:72px;}
 
@@ -170,7 +157,7 @@ nav {
     width: 72px;
     height: 72px;
     border: 2px #ffff solid; 
-    display:inline-block;
+    display:table;
     border-radius: 50%;
     background:#ffff;
     overflow: hidden;}
@@ -181,27 +168,3 @@ nav {
         height:72px;
         border: 2px #706f70 solid;
         background:#706f70 }
-.me{
-    position: relative;
-    z-index:10050;
-    margin-top:-452px; 
-    margin-left:420px;
-    height:750px;
-    width:600px;
-}
-    .border{
-        position:absolute;
-        z-index:100;
-        opacity:0.5 ;
-        margin-top:-410px; 
-        margin-left:480px;
-        height:220px;
-        width:400px;
-        padding-top:180px;
-        background: linear-gradient(60deg, #030303, #b1b0b0);
-        border-top-left-radius:     120px 220px;
-        border-top-right-radius:    200px 110px;
-        border-bottom-right-radius: 150px 120px;
-        border-bottom-left-radius:  120px 220px;
-        overflow: hidden;
-    }

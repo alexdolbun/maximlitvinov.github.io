@@ -64,7 +64,7 @@ nav {
 
 .brandlogo {
     position: relative;
-    margin-left:150px; 
+    margin-left:170px; 
 	color:#ffff;
 	text-shadow: 1px 1px 2px black;
 	text-decoration:none;
@@ -178,11 +178,11 @@ nav {
 
   .html{
     margin-top:5px;
-    width: 60%;
+    width: 70%;
   }
   .css{
     margin-top:5px;
-    width: 48%;
+    width: 55%;
   }
 .php{
     margin-top:5px;
