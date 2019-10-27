@@ -75,6 +75,7 @@ nav {
     color: #706f70;
 }
 .contain{
+    transition:200ms;
     font-family: 'Cairo', sans-serif;
     text-align:center;
     font-size:35px;

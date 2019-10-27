@@ -8,7 +8,6 @@ body{
     font-family: 'Big Shoulders Text', cursive;
     font-family: 'Quicksand', sans-serif;   
     min-width:320px ;
-    
 }
 
 .container{
@@ -76,6 +75,7 @@ nav {
     color: #706f70;
 }
 .contain{
+    transition: 200ms;
     margin-left:200px;
     font-size:25px;
     font-family: 'Cairo', sans-serif;

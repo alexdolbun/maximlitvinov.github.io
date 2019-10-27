@@ -160,12 +160,12 @@ nav {
     -webkit-appearance: none;
     cursor: pointer;
     outline: none;
-    transition: .3s;
+    transition: 200ms;
     padding: 2px 0 0 0;
 }
 
 .contact-form__button:hover {
-    transition: .3s;
+    transition:200ms;
     background:#706f70;
 }
 
