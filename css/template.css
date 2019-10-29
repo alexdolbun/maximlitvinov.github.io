@@ -32,7 +32,7 @@ nav {
 }
 
 .menu {
-    width:400px ;
+    width:500px ;
     margin-top:-100px; 
     margin-left:900px; 
     font-family: 'Cairo', sans-serif;
@@ -67,10 +67,13 @@ nav {
 	font-size:30px;
     font-family: 'Cairo', sans-serif;
 }
-.brandlogo:hover{
+.brandlogo:hover,
+.brandlogo:focus{
     text-decoration: none;
     color: #706f70;
 }
+
+
 
 
 
@@ -100,11 +103,10 @@ nav {
 	color:white;
     text-shadow: 1px 2px 2px black;}
 
-
 .linked{
     width:72px;
     height:72px;}
-    
+
     #circle1{
         width: 72px;
         height: 72px;
@@ -119,12 +121,12 @@ nav {
             width:72px;
             height:72px;
             border: 2px #706f70 solid;
-            background:#706f70}
+            background:#706f70;}
 
 .git{
     width:72px;
     height:72px;}
-        
+
     #circle2{
         width: 72px;
         height: 72px;
@@ -139,7 +141,7 @@ nav {
             width:72px;
             height:72px;
             border: 2px #706f70 solid;
-            background:#706f70}
+            background:#706f70;}
 
 .vk{
     width:72px;
@@ -159,7 +161,7 @@ nav {
             width:72px;
             height:72px;
             border: 2px #706f70 solid;
-            background:#706f70}
+            background:#706f70;}
         
 .inst{
     width:72px;
@@ -205,20 +207,21 @@ nav {
         overflow: hidden;
     }
 /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
+    @media only screen and (min-width: 961px) and (max-width:1024px){
         body{
             margin:0;
-            width:100%;
+            width:600px;
+            height:1024px;
         }
         .container{
-            padding: 0;
-            width: 792px;
+            margin-top:50px;
+            width:800px;
         }
        
         header  {
             margin-bottom:10px;
             margin-left:110px ;
-            width:750px;}
+            width:800px;}
 
         .brandlogo{
             font-size:16px;
@@ -272,7 +275,7 @@ nav {
             width:32px;
             height:32px;
             border: 2px #706f70 solid;
-            background:#706f70 }
+            background:#706f70; }
         .vk{
             display:inline-block;
             width:32px;
@@ -288,7 +291,7 @@ nav {
             width:32px;
             height:32px;
             border: 2px #706f70 solid;
-            background:#706f70 }
+            background:#706f70; }
         .git{
             display:inline-block;
             width:32px;
@@ -304,7 +307,7 @@ nav {
             width:32px;
             height:32px;
             border: 2px #706f70 solid;
-            background:#706f70}
+            background:#706f70;}
         .inst{
             display:inline-block;
             width:32px;
@@ -320,10 +323,257 @@ nav {
             width:32px;
             height:32px;
             border: 2px #706f70 solid;
-            background:#706f70 }
+            background:#706f70;}
 
 
     }
 
     /* Small Devices, Tablets */
-    
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body{
+        margin:0;
+        width:950px;
+        height:1045px;
+    }
+    .container{
+        width:950px;
+        height:950px;
+    }
+   
+    header {
+        height:850px;
+        width:950px;
+        margin-top:100px;}
+
+    .brandlogo{
+        font-size:16px;
+        margin-left:50px;
+        
+    }
+    .brandlogo:hover{
+        text-decoration: none;
+        color: #706f70;
+    }
+    .menu{
+        width:400px;
+        text-align:center;
+        font-size:14px;
+        margin-left:450px;
+    }
+    .me{
+        margin-top:-121px;
+        margin-left:50px;
+        height:600px;
+        width:450px;
+    }
+    .border{
+        margin-left:50px;
+        margin-top:-310px;
+        height:120px;
+        width:325px;
+    }
+    .name2{
+        width:400px;
+        margin-top:100px;
+        margin-left:-200px ;
+        font-size:48px;
+    }
+    .contact{
+        margin-bottom:50px;
+        margin-left:500px;
+        width:400px;
+        font-size:25px;
+        
+    }
+    .linked{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle1{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle1:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70; }
+    .vk{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle2{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle2:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70; }
+    .git{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle3{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle3:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70;}
+    .inst{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle4{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle4:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70; }
+
+}
+  /*Extra Small Devices */
+@media only screen and (min-width: 120px) and (max-width: 400px) {
+    body{
+        height:820px;
+        margin:0;
+        width:390px;
+    }
+    .container{
+        width:390px;
+        height:820px;
+    }
+   
+    header {
+        width:390px;
+        margin-top:100px;}
+
+    .brandlogo{
+        font-size:16px;
+        margin-left:50px;
+        
+    }
+    .brandlogo:hover{
+        text-decoration: none;
+        color: #706f70;
+    }
+    .menu{
+        display:table;
+        top:37px;
+        width:100px;
+        text-align:center;
+        font-size:12px;
+        margin-left:210px;
+    }
+    .me{
+        display:none;
+        margin-top:-121px;
+        margin-left:50px;
+        height:600px;
+        width:450px;
+    }
+    .border{
+        display:none;
+        margin-left:50px;
+        margin-top:-310px;
+        height:120px;
+        width:325px;
+    }
+    .name2{
+        width:200px;
+        margin-top:50px;
+        margin-left:-600px ;
+        font-size:24px;
+    }
+    .contact{
+        margin-top:100px;
+        margin-left:15px;
+        width:400px;
+        font-size:18px;
+        
+    }
+    .linked{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle1{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle1:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70; }
+    .vk{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle2{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle2:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70; }
+    .git{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle3{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle3:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70;}
+    .inst{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle4{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle4:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70;}
+
+}
