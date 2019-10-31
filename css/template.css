@@ -2,7 +2,7 @@
 body{
     background: url("../images/body.jpg") no-repeat ;
     background-size:cover; 
-    
+    margin: 0;
     font-family: 'Cairo', sans-serif;
     font-family: 'Rajdhani', sans-serif;
     font-family: 'Changa', sans-serif;
@@ -206,26 +206,154 @@ nav {
         border-bottom-left-radius:  120px 220px;
         overflow: hidden;
     }
+/* Large Devices, Desktops */
+@media only screen and (min-width:1400px) and (max-width:4096px){
+    body{
+        overflow-y: hidden;
+        margin:0;
+        min-width:1920px;
+        min-height:2000px;
+    }
+    .container{
+        margin-top:50px;
+        min-width:993px;
+    }
+   
+    header{
+        min-width:1920px;
+        }
+
+    .brandlogo{
+        font-size:16px;
+        margin-left:390px;
+        
+    }
+    .brandlogo:hover{
+        text-decoration: none;
+        color: #706f70;
+    }
+    .menu{
+        min-width:400px;
+        text-align:center;
+        font-size:14px;
+        margin-left:1000px;
+    }
+    .me{
+        margin-top:-500px;
+        margin-left:310px;
+        min-height:600px;
+        min-width:450px;
+    }
+    .border{
+        margin-left:370px;
+        margin-top:-310px;
+        height:120px;
+        width:325px;
+    }
+    .name2{
+        padding-left:170px ;
+        font-size:80px;
+    }
+    .contact{
+        margin-left:420px ;
+        width:200px;
+        font-size:18px;
+        
+    }
+    .linked{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle1{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle1:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70; }
+    .vk{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle2{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle2:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70; }
+    .git{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle3{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle3:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70;}
+    .inst{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle4{
+        display:inline-block;
+        width:32px;
+        height:32px;
+    }
+    #circle4:hover{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        border: 2px #706f70 solid;
+        background:#706f70;}
+
+
+}
+
+
+
+
+
+
+
 /* Medium Devices, Desktops */
-    @media only screen and (min-width: 961px) and (max-width:1024px){
+    @media only screen and (min-width:769px) and (max-width:1399px){
         body{
-            margin:0;
-            width:600px;
-            height:1024px;
+            overflow-x:hidden;
+            overflow-y:hidden;
+            min-width:1399px;
+            min-height:2000px;
         }
         .container{
-            margin-top:50px;
-            width:800px;
+            margin-top:5px;
+            min-width:800px;
+            height:800px;
         }
        
         header  {
-            margin-bottom:10px;
-            margin-left:110px ;
-            width:800px;}
+            min-width:1399px;}
 
         .brandlogo{
-            font-size:16px;
-            margin-left:50px;
+            font-size:21px;
+            margin-left:120px;
             
         }
         .brandlogo:hover{
@@ -233,95 +361,96 @@ nav {
             color: #706f70;
         }
         .menu{
-            width:400px;
+            min-width:450px;
             text-align:center;
-            font-size:14px;
-            margin-left:200px;
+            font-size:19px;
+            margin-left:700px;
         }
         .me{
-            margin-top:-240px;
-            margin-left:50px;
+            margin-top:-308px;
+            margin-left:180px;
             height:600px;
             width:450px;
         }
         .border{
-            margin-left:50px;
+            margin-left:175px;
             margin-top:-310px;
             height:120px;
             width:325px;
         }
         .name2{
-            padding-left:170px ;
-            font-size:36px;
+            padding-left:190px ;
+            font-size:62px;
         }
         .contact{
-            margin-left:420px ;
-            width:200px;
-            font-size:18px;
+            margin-left:650px ;
+            width:250px;
+            font-size:25px;
             
         }
         .linked{
             display:inline-block;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
         }
         #circle1{
             display:inline-block;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
         }
+
         #circle1:hover{
             border-radius: 50%;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
             border: 2px #706f70 solid;
             background:#706f70; }
         .vk{
             display:inline-block;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
         }
         #circle2{
             display:inline-block;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
         }
         #circle2:hover{
             border-radius: 50%;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
             border: 2px #706f70 solid;
             background:#706f70; }
         .git{
             display:inline-block;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
         }
         #circle3{
             display:inline-block;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
         }
         #circle3:hover{
             border-radius: 50%;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
             border: 2px #706f70 solid;
             background:#706f70;}
         .inst{
             display:inline-block;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
         }
         #circle4{
             display:inline-block;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
         }
         #circle4:hover{
             border-radius: 50%;
-            width:32px;
-            height:32px;
+            width:52px;
+            height:52px;
             border: 2px #706f70 solid;
             background:#706f70;}
 
@@ -329,11 +458,11 @@ nav {
     }
 
     /* Small Devices, Tablets */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 412px) and (max-width: 768px) {
     body{
         margin:0;
-        width:950px;
-        height:1045px;
+        min-width:950px;
+        min-height:2000px;
     }
     .container{
         width:950px;
@@ -452,22 +581,26 @@ nav {
 
 }
   /*Extra Small Devices */
-@media only screen and (min-width: 120px) and (max-width: 400px) {
+@media only screen and (min-width: 120px) and (max-width: 411px) {
     body{
-        height:820px;
+        min-height:400px;
         margin:0;
-        width:390px;
+        min-width:320px;
     }
     .container{
-        width:390px;
+        width:415px;
         height:820px;
     }
    
     header {
-        width:390px;
-        margin-top:100px;}
+        height:1200px;
+        width:415px;
+        margin-bottom:100px;
+    }
 
     .brandlogo{
+        float: left;
+        margin-top:150px;
         font-size:16px;
         margin-left:50px;
         
@@ -478,9 +611,9 @@ nav {
     }
     .menu{
         display:table;
-        top:37px;
+        float: right;
+        margin-top:-60px;
         width:100px;
-        text-align:center;
         font-size:12px;
         margin-left:210px;
     }
@@ -500,9 +633,9 @@ nav {
     }
     .name2{
         width:200px;
-        margin-top:50px;
+        margin-top:200px;
         margin-left:-600px ;
-        font-size:24px;
+        font-size:21px;
     }
     .contact{
         margin-top:100px;
