@@ -1,6 +1,6 @@
 
 body{
-    background: url("../images/body.jpg") no-repeat ;
+    background: no-repeat center url(../images/body.jpg);
     background-size:cover; 
     margin: 0;
     font-family: 'Cairo', sans-serif;
@@ -22,7 +22,7 @@ header{
     margin-top:50px;
     margin-bottom:25px;  
     height: 600px;
-    background: url("../images/header.jpg") no-repeat center center;
+    background: no-repeat center url(../images/header.jpg);
 
 }
 nav {
@@ -352,6 +352,8 @@ nav {
             min-width:1399px;}
 
         .brandlogo{
+            position:relative;
+            z-index:4;
             font-size:21px;
             margin-left:120px;
             
@@ -367,23 +369,27 @@ nav {
             margin-left:700px;
         }
         .me{
-            margin-top:-308px;
+            position: relative;
+            z-index:3;
+            margin-top:-407px;
             margin-left:180px;
-            height:600px;
-            width:450px;
+            height:700px;
+            width:550px;
         }
         .border{
+            position: relative;
+            z-index:2;
             margin-left:175px;
-            margin-top:-310px;
-            height:120px;
-            width:325px;
+            margin-top:-393px;
+            height:200px;
+            width:425px;
         }
         .name2{
-            padding-left:190px ;
+            padding-left:480px ;
             font-size:62px;
         }
         .contact{
-            margin-left:650px ;
+            margin-left:800px ;
             width:250px;
             font-size:25px;
             
