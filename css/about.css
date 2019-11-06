@@ -7,7 +7,8 @@ body{
     font-family: 'Changa', sans-serif;
     font-family: 'Big Shoulders Text', cursive;
     font-family: 'Quicksand', sans-serif;   
-    min-width:320px ;
+    max-width:1920px;
+    min-width:320px;
 }
 
 .container{
@@ -19,14 +20,17 @@ body{
 
 /* HEADER */
 header{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width:1200px;
     margin-top:50px;
     margin-bottom:25px;  
-    height: 600px;
+    height:700px;
     background: url("../images/header.jpg") no-repeat center center;
 
 }
 nav {
-
     height: 100px;
     line-height: 100px;
 
@@ -37,7 +41,7 @@ nav {
     margin-top:-100px; 
     margin-left:900px; 
     font-family: 'Cairo', sans-serif;
-    font-size:18px;
+    font-size:20px;
     list-style-type: none;
 }
 .menu li{
@@ -67,7 +71,7 @@ nav {
 	color:#ffff;
 	text-shadow: 1px 1px 2px black;
 	text-decoration:none;
-	font-size:30px;
+	font-size:20px;
     font-family: 'Cairo', sans-serif;
 }
 .brandlogo:hover{
@@ -91,7 +95,7 @@ nav {
 }
 
 .me2{
-    z-index: 100500;
+    z-index:4;
     position:relative;
     margin-left:810px;
     margin-top:-690px;
@@ -99,21 +103,18 @@ nav {
     width:450px;
 }
 .border{
-    height: 100px;
-    width: 100px;
-    z-index: 100;
+    z-index:3;
     opacity:0.5;
     position: absolute;
+    left:810px;
+    top:400px;
     background: linear-gradient(60deg, #030303, #b1b0b0); 
     border-top-left-radius:     150px 250px;
     border-top-right-radius:    200px 110px;
     border-bottom-right-radius: 220px 120px;
     border-bottom-left-radius:  120px 220px;
-    margin-left:810px;
-    margin-top:-382px;
     height:350px;
-    width:420px;
-    overflow: hidden;
+    width:410px;
 }
 
 
@@ -178,11 +179,11 @@ nav {
 
   .html{
     margin-top:5px;
-    width: 70%;
+    width: 75%;
   }
   .css{
     margin-top:5px;
-    width: 55%;
+    width: 65%;
   }
 .php{
     margin-top:5px;
@@ -198,8 +199,8 @@ nav {
 /*socialmedia*/
 
 .contact{
-    margin-left:1100px;
-    margin-top:-290px;
+    margin-left:1000px;
+    margin-top:-260px;
 }
 .linked{
     display:table;
@@ -292,38 +293,46 @@ nav {
     body{
         overflow-y: hidden;
         margin:0;
-        min-width:1920px;
+        min-width:1400px;
         min-height:2000px;
     }
     .container{
-        margin-top:50px;
+        margin-top:20px;
         min-width:993px;
+    }
+    .contain{
+        width:1400px;
+        margin-left:200px;
     }
    
     header{
-        min-width:1920px;
+        margin-top:15px;
+        min-width:1400px;
         }
     .brandlogo{
-            margin-left:400px;
+            font-size:23px;
+            margin-left:150px;
         }
     .brandlogo:hover{
             text-decoration: none;
             color: #706f70;
         }
     .menu{
-        margin-left:1100px;
+        min-width:450px;
+        font-size:21px;
+        margin-left:850px;
     }
-    .contain{
-        margin-left:450px;
-    }
+    
     .me2{
-        margin-left:1050px;
+        margin-top:-527px;
+        margin-left:760px;
     }
     .border{
-        margin-left:1030px; 
+        left:780px;
+        top:300px; 
     }
     .contact{
-        margin-left:1070px
+        margin-left:1050px;
     }
     .linked{
         display:table;
@@ -415,18 +424,11 @@ nav {
     /* Medium Devices, Desktops */
     @media only screen and (min-width:769px) and (max-width:1399px){
         body{
-            overflow-x: hidden;
             min-width:1399px;
             min-height:2000px;
         }
-        .container{
-            margin-top:5px;
-            min-width:800px;
-            height:800px;
-        }
        
         header  {
-            margin-left:-55px;
             min-width:1399px;}
 
         .brandlogo{
@@ -439,21 +441,24 @@ nav {
             text-decoration: none;
             color: #706f70;
         }
+
+        .menu{
+            min-width:450px;
+            font-size:21px;
+            margin-left:850px;
+        }
     
         .contact{
             margin-left:1050px;
         }
 
         .border{
-            position: relative;
-            z-index:1;
-            padding-top:8px;
-            margin-left:710px;
+            left:770px;
+            top:300px;  
         }
         .me2{
-            position: relative;
-            z-index:2;
-            margin-top:-500px;
+            margin-top:-465px;
+            margin-left:770px;
         }
         .linked{
             position: relative;
@@ -563,23 +568,16 @@ nav {
     /* Small Devices, Tablets */
 @media only screen and (min-width: 412px) and (max-width: 768px) {
     body{
-        margin:0;
-        min-width:950px;
         min-height:2000px;
-    }
-    .container{
-        width:950px;
-        height:950px;
     }
    
     header {
-        height:850px;
-        width:950px;
-        margin-top:100px;}
+        min-width:34.333333333%;
+        }
 
     .brandlogo{
         font-size:16px;
-        margin-left:50px;
+        margin-left:250px;
         
     }
     .brandlogo:hover{
@@ -587,31 +585,32 @@ nav {
         color: #706f70;
     }
     .menu{
-        width:400px;
+        max-width:400px;
         text-align:center;
         font-size:14px;
-        margin-left:450px;
     }
     .me2{
-        position:relative;
-        z-index:2;
-        max-width:350px;
-        max-height:450px;
-        margin-left:600px;
-        padding-top:-700px;
+        max-width:250px;
+        max-height:350px;
+        margin-left:710px;
+        margin-top:-590px;
     }
     .border{
-        position:relative;
-        z-index:1;
-        max-width:270px;
-        max-height:310px;
-        margin-left:620px;
-        margin-top:-374px;
+        max-width:220px;
+        max-height:250px;
+        left:700px;
+        top:399px;
+    }
+
+    .contain{
+        margin-left:290px;
+        font-size:18px;
+        max-width:400px;
     }
     .contact{
-        position:relative;
+        position: relative;
         z-index:4;
-        margin-top:150px;
+        margin-top:20px;
         margin-left:50px;
     }
 

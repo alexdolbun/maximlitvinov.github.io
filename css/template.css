@@ -211,21 +211,21 @@ nav {
     body{
         overflow-y: hidden;
         margin:0;
-        min-width:1920px;
+        min-width:1400px;
         min-height:2000px;
     }
     .container{
         margin-top:50px;
-        min-width:993px;
+        min-width:1400px;
     }
    
     header{
-        min-width:1920px;
+        min-width:1400px;
         }
 
     .brandlogo{
-        font-size:16px;
-        margin-left:390px;
+        font-size:22px;
+        margin-left:250px;
         
     }
     .brandlogo:hover{
@@ -235,93 +235,99 @@ nav {
     .menu{
         min-width:400px;
         text-align:center;
-        font-size:14px;
-        margin-left:1000px;
+        font-size:21px;
+        margin-left:700px;
     }
     .me{
-        margin-top:-500px;
+        position: relative;
+        z-index:2;
+        margin-top:-503px;
         margin-left:310px;
         min-height:600px;
         min-width:450px;
     }
     .border{
-        margin-left:370px;
-        margin-top:-310px;
-        height:120px;
-        width:325px;
+        position: relative;
+        z-index:1;
+        margin-left:365px;
+        margin-top:-408px;
+        height:220px;
+        width:410px;
     }
     .name2{
-        padding-left:170px ;
+        padding-left:470px ;
         font-size:80px;
     }
     .contact{
-        margin-left:420px ;
-        width:200px;
-        font-size:18px;
+        position: relative;
+        z-index:3;
+        margin-left:800px ;
+        width:350px;
+        font-size:32px;
         
     }
     .linked{
         display:inline-block;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
     }
     #circle1{
         display:inline-block;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
     }
     #circle1:hover{
         border-radius: 50%;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
         border: 2px #706f70 solid;
         background:#706f70; }
     .vk{
         display:inline-block;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
     }
     #circle2{
         display:inline-block;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
     }
     #circle2:hover{
         border-radius: 50%;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
         border: 2px #706f70 solid;
         background:#706f70; }
     .git{
         display:inline-block;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
     }
     #circle3{
         display:inline-block;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
     }
     #circle3:hover{
         border-radius: 50%;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
         border: 2px #706f70 solid;
         background:#706f70;}
     .inst{
         display:inline-block;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
     }
     #circle4{
         display:inline-block;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
     }
     #circle4:hover{
         border-radius: 50%;
-        width:32px;
-        height:32px;
+        width:72px;
+        height:72px;
         border: 2px #706f70 solid;
         background:#706f70;}
 
