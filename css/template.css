@@ -6,7 +6,8 @@ body{
     font-family: 'Cairo', sans-serif;
     font-family: 'Rajdhani', sans-serif;
     font-family: 'Changa', sans-serif;
-    min-width:320px ;
+    max-width:1920px;
+    min-width:320px;
     
 }
 
@@ -19,9 +20,13 @@ body{
 
 /* HEADER */
 header{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width:1200px;
     margin-top:50px;
     margin-bottom:25px;  
-    height: 600px;
+    height:700px;
     background: no-repeat center url(../images/header.jpg);
 
 }
@@ -60,7 +65,7 @@ nav {
 
 
 .brandlogo {
-    margin-left:170px; 
+    margin-left:50px; 
 	color:#ffff;
 	text-shadow: 1px 1px 2px black;
 	text-decoration:none;
@@ -215,7 +220,7 @@ nav {
         min-height:2000px;
     }
     .container{
-        margin-top:50px;
+        margin-top:20px;
         min-width:1400px;
     }
    
@@ -224,8 +229,10 @@ nav {
         }
 
     .brandlogo{
-        font-size:22px;
-        margin-left:250px;
+        position:relative;
+        z-index:5;
+        font-size:23px;
+        margin-left:150px;
         
     }
     .brandlogo:hover{
@@ -233,6 +240,7 @@ nav {
         color: #706f70;
     }
     .menu{
+        
         min-width:400px;
         text-align:center;
         font-size:21px;
@@ -241,16 +249,16 @@ nav {
     .me{
         position: relative;
         z-index:2;
-        margin-top:-503px;
-        margin-left:310px;
+        margin-top:-470px;
+        margin-left:190px;
         min-height:600px;
         min-width:450px;
     }
     .border{
         position: relative;
         z-index:1;
-        margin-left:365px;
-        margin-top:-408px;
+        margin-left:250px;
+        margin-top:-402px;
         height:220px;
         width:410px;
     }
@@ -502,16 +510,16 @@ nav {
         margin-left:450px;
     }
     .me{
-        margin-top:-121px;
+        margin-top:-220px;
         margin-left:50px;
-        height:600px;
-        width:450px;
+        height:700px;
+        width:550px;
     }
     .border{
-        margin-left:50px;
-        margin-top:-310px;
-        height:120px;
-        width:325px;
+        margin-left:100px;
+        margin-top:-385px;
+        height:200px;
+        width:350px;
     }
     .name2{
         width:400px;
@@ -595,9 +603,8 @@ nav {
   /*Extra Small Devices */
 @media only screen and (min-width: 120px) and (max-width: 411px) {
     body{
-        min-height:400px;
-        margin:0;
-        min-width:320px;
+        min-height:1000px;
+        min-width:420px;
     }
     .container{
         width:415px;
@@ -605,14 +612,15 @@ nav {
     }
    
     header {
-        height:1200px;
-        width:415px;
-        margin-bottom:100px;
+        position:relative;
+        left:50%;
+        min-height:900px;
+        max-width:440px;
     }
 
     .brandlogo{
         float: left;
-        margin-top:150px;
+        margin-top:50px;
         font-size:16px;
         margin-left:50px;
         
@@ -622,12 +630,11 @@ nav {
         color: #706f70;
     }
     .menu{
-        display:table;
-        float: right;
-        margin-top:-60px;
-        width:100px;
-        font-size:12px;
-        margin-left:210px;
+        display:inline-block;
+        margin-top:20px;
+        width:400px;
+        font-size:14px;
+        margin-left:-20px;
     }
     .me{
         display:none;
@@ -645,9 +652,9 @@ nav {
     }
     .name2{
         width:200px;
-        margin-top:200px;
+        margin-top:250px;
         margin-left:-600px ;
-        font-size:21px;
+        font-size:26px;
     }
     .contact{
         margin-top:100px;

@@ -568,16 +568,24 @@ nav {
     /* Small Devices, Tablets */
 @media only screen and (min-width: 412px) and (max-width: 768px) {
     body{
+        min-width:412px;
         min-height:2000px;
     }
    
     header {
-        min-width:34.333333333%;
+        left:225px;
+        position: relative;
+        min-width:412px;
+        }
+
+        .container{
+            margin-top:20px;
+            min-width:412px;
         }
 
     .brandlogo{
         font-size:16px;
-        margin-left:250px;
+        margin-left:420px;
         
     }
     .brandlogo:hover{
@@ -585,31 +593,33 @@ nav {
         color: #706f70;
     }
     .menu{
-        max-width:400px;
-        text-align:center;
-        font-size:14px;
+        margin-left:750px;
+        font-size:16px;
+        width:400px;
     }
     .me2{
-        max-width:250px;
-        max-height:350px;
-        margin-left:710px;
-        margin-top:-590px;
+        max-width:350px;
+        max-height:450px;
+        margin-left:810px;
+        margin-top:-497px;
     }
     .border{
-        max-width:220px;
+        max-width:320px;
         max-height:250px;
-        left:700px;
-        top:399px;
+        left:810px;
+        top:397px;
+    }
+    .skills{
+        margin-left:10px ;
+
     }
 
     .contain{
-        margin-left:290px;
+        margin-left:400px;
         font-size:18px;
         max-width:400px;
     }
     .contact{
-        position: relative;
-        z-index:4;
         margin-top:20px;
         margin-left:50px;
     }
@@ -706,9 +716,8 @@ nav {
 /*Extra Small Devices */
 @media only screen and (min-width: 120px) and (max-width: 411px) {
     body{
-        min-height:400px;
-        margin:0;
-        min-width:320px;
+        min-height:1000px;
+        min-width:420px;
     }
     .container{
         width:415px;
@@ -716,15 +725,15 @@ nav {
     }
    
     header {
-        height:1200px;
-        min-width:415px;
-        margin-bottom:100px;
+        position:relative;
+        left:50%;
+        min-height:900px;
+        max-width:440px;
     }
 
     .brandlogo{
-        float: left;
-        margin-top:150px;
-        font-size:16px;
+        margin-top:10px;
+        font-size:14px;
         margin-left:50px;
         
     }
@@ -733,11 +742,12 @@ nav {
         color: #706f70;
     }
     .menu{
-        margin-top:20px;
-        float: right;
+        font-size:15px;
+        margin-top:-10px;
+        margin-left:2px;
     }
     .skills{
-        margin-top:100px;
+        margin-top:10px;
         margin-left:-150px;
         font-size:25px;
     }
@@ -754,7 +764,7 @@ nav {
         font-size:20px;
         width:170px;
         margin-left:-70px;
-        margin-top:50px
+        margin-top:20px
 
     }
     .linked{
@@ -842,7 +852,6 @@ nav {
             border: 2px #706f70 solid;
             background:#706f70 }
             .css{
-               
                 font-size:21px;
 
             }
@@ -852,6 +861,8 @@ nav {
 
             }
             .html{
+                
+                margin-top:-10px;
                 font-size:21px;
 
             }
@@ -869,6 +880,7 @@ nav {
                 font-size:18px;
             }
             .js{
+                margin-top:-5px;
                 font-size:21px;
                 
             }
@@ -919,7 +931,7 @@ nav {
                   width:200px;
                   text-align:center;
                   margin-left:-90px;
-                  margin-top:200px;
+                  margin-top:100px;
                   font-size:25px ;
               }
 
