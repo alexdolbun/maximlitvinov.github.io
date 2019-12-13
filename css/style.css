@@ -1,0 +1,77 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url(../img/header.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #848484;
+}
+
+.fixed-action-btn {
+    font-size: 2rem;
+}
+
+.grey-text {
+    color: #3f3f3f;
+}
+
+h2.display-4.font-weight-bold.white-text.pt-5.mb-2 {
+    border: solid 2px white;
+}
+
+.font-weight-bold.white-text.pt-5.mb-2 {
+    font-size: 3.5rem;
+}
+
+.name.font-weight-bold.white-text {
+    font-size: 3.5rem;
+}
+
+.progress.md-progress {
+    background-color: #C2C8CE;
+}
+
+.progress-bar {
+    background-color: #000;
+}
+
+.top-nav-collapse {
+    background-color: #000;
+}
+
+#main::before,
+#portfolio::before,
+#aboutme::before,
+#contact::before {
+    display: block;
+    content: " ";
+    margin-top: -65px;
+    height: 65px;
+    visibility: hidden;
+}
+
+.md-form.form-sm {
+    color: #000;
+}
+
+footer {
+    background: #000;
+}
+
+@media (max-width:768px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #000;
+    }
+}
