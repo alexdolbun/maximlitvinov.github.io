@@ -39,10 +39,10 @@
 <body>
 
     <!-- Start your project here-->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <header id="section-top">
+        <nav class="fixed-top navbar navbar-expand-lg navbar-dark elegant-color-dark">
             <div class="container">
-                <a href="#" class="navbar-brand">Logo here</a>
+                <a href="#section-top" class="navbar-brand">Logo here</a>
 
                 <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle Navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -51,32 +51,32 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent1">
                     <ul class="navbar-nav-mr-auto smooth-scroll">
                         <li class="item">
-                            <a href="#intro" class="nav-link waves-effect waves-light">Home</a>
-                            <a href="#aboutme" class="nav-link waves-effect waves-light">About me</a>
-                            <a href="#portfolio" class="nav-link waves-effect waves-light">Latest Projects</a>
-                            <a href="#github" class="nav-link waves-effect waves-light">Github</a>
-                            <a href="#contact" class="nav-link waves-effect waves-light">Contact</a>
+                            <a href="#section-top" class="nav-link waves-effect waves-light">Home</a>
+                            <a href="#section-gallery" class="nav-link waves-effect waves-light">About me</a>
+                            <a href="#section-last-projects" class="nav-link waves-effect waves-light">Latest Projects</a>
+                            <a href="https://github.com/maximlitvinov" class="nav-link waves-effect waves-light" target="_blank">Github</a>
+                            <a href="#section-contact" class="nav-link waves-effect waves-light">Contact</a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav nav-flex-icons ml-5">
                         <li class="nav-item">
-                            <a href="#" class="nav-link waves-effect waves-light">
+                            <a href="https://www.linkedin.com/in/maximlitvinovin/" class="nav-link waves-effect waves-light" target="_blank">
                                 <i class="fab fa-linkedin fa-2x"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link waves-effect waves-light">
+                            <a href="https://github.com/maximlitvinov" class="nav-link waves-effect waves-light" target="_blank">
                                 <i class="fab fa-github-square fa-2x"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link waves-effect waves-light">
+                            <a href="https://vk.com/maximlitvinov_v" class="nav-link waves-effect waves-light" target="_blank">
                                 <i class="fab fa-vk fa-2x"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link waves-effect waves-light">
+                            <a href="https://www.instagram.com/thelistik" class="nav-link waves-effect waves-light" target="_blank">
                                 <i class="fab fa-instagram fa-2x"></i>
                             </a>
                         </li>
@@ -102,7 +102,7 @@
                             </button> -->
 
                             <div class="smooth-scroll fixed-action-btn  pl-5">
-                                <a href="#main">
+                                <a href="#section-main">
                                             Scroll Down <i class="fas fa-arrow-circle-down fa-l ml-3 animated pulse infinite slow">
                                         </i>
                                     </a>
@@ -112,11 +112,11 @@
                 </div>
             </div>
         </div>
-        <div id="main"></div>
+        <div></div>
     </header>
-    <main class="mt-5">
+    <main class="mt-5" id="section-main">
         <div class="container">
-            <section id=" bestfeatures " class="text-center">
+            <section id="section-best-features" class="text-center">
                 <h2 class="mb-5 font-weight-bold ">My Skills</h2>
                 <div class="row d-flex justify-content-center mb-4 ">
                     <div class="col-md-8 ">
@@ -154,7 +154,7 @@
             </section>
             <hr class="my-5 ">
 
-            <section class="examples text-center">
+            <section class="examples text-center" id="section-last-projects">
                 <h2 class="mb-5 font-weight-bold" id="portfolio">Latest Projects</h2>
                 <div class="row ">
                     <div class="col-lg-4 col-md-12 mb-4 ">
@@ -190,7 +190,7 @@
 
             <hr class="my-5">
             <div id="aboutme"></div>
-            <section id="gallery">
+            <section id="section-gallery">
                 <h2 class="mb-5 font-weight-bold text-center">About me</h2>
                 <div class="row">
                     <div class="col-md-6 mb-4">
@@ -205,14 +205,13 @@
                         <p>I have been working with technology since I got my first PC in 2007. While I was an avid gamer I was never interested only in games, I always liked looking behind what I saw to see how it all worked. I quickly became the 'computer
                             guy' to my family and friends and today I am a front-end developer. And i like it! While I learned programming language in high school my path became clear. In 2018 I became a student of "North Caucasus Branch Moscow Technical
                             University of Communication and Information Technology". And now I'm learning hard html, css, js and different frameworks for this programming languages.</p>
-                        <p>
-                        </p>
+                        <p>Message me:</p>
                     </div>
                 </div>
             </section>
 
             <hr class="my-5 ">
-            <section>
+            <section id="section-contact">
                 <h2 class="mb-5 font-weight-bold text-center" id="contact" s>Contact me</h2>
                 <div class="row ">
                     <div class="col-lg-5 col-md-12 ">
@@ -254,16 +253,19 @@
     </footer>
     <!-- End your project here-->
 
-    <!-- jQuery -->
-    <script type="text/javascript " src="js/jquery.min.js "></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript " src="js/popper.min.js "></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript " src="js/bootstrap.min.js "></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript " src="js/mdb.min.js "></script>
-    <!-- Your custom scripts (optional) -->
-    <script type="text/javascript "></script>
+    <!-- Optional JavaScript -->
+    <script type="text/javascript"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var scroll = new SmoothScroll('a[href*="#section-"]');
+        });
+    </script>
+
 
 </body>
 

@@ -51,6 +51,13 @@ h2.display-4.font-weight-bold.white-text.pt-5.mb-2 {
     background-color: #000;
 }
 
+#section-last-projects,
+#section-contact,
+#section-gallery,
+#section-main {
+    padding-top: 6em;
+}
+
 #main::before,
 #portfolio::before,
 #aboutme::before,
