@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Odibee-Sans-Regular';
+    src: url('../font/OdibeeSans/OdibeeSans-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,
 body,
 header,
@@ -9,8 +16,9 @@ header,
 }
 
 #intro {
-    background: url(../img/header.jpg) no-repeat center center fixed;
+    background: url(../img/header.jpeg) no-repeat center center fixed;
     background-size: cover;
+    text-shadow: 2px 2px 2px #000;
 }
 
 a {
@@ -36,7 +44,7 @@ ul.navbar-nav-mr-auto.smooth-scroll {
 }
 
 h2.font-weight-bold.white-text.container-fluid.text-center {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Odibee-Sans-Regular', normal;
 }
 
 h2.display-4.font-weight-bold.white-text.pt-5.mb-2 {
@@ -50,7 +58,11 @@ h2.display-4.font-weight-bold.white-text.pt-5.mb-2 {
 h2.mb-5.font-weight-bold.text-center,
 .mb-5.font-weight-bold {
     font-size: 3.5rem;
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Odibee-Sans-Regular', normal;
+}
+
+.link-about-me a i:hover {
+    color: grey;
 }
 
 .name.font-weight-bold.white-text {

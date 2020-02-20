@@ -7,8 +7,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Google / Search Engine Tags -->
-    <meta name="description" content="Hey! My name is Maxim Litvinov, I am Creative Front-End Developer using HTML,CSS and JS">
-    <meta name="keywords" content="CSS,JS,HTML,front-end,developer,web design, web designer, front-end developer,maxim litvinov,Maxim Litvinov">
+    <meta name="description" content="Hey! My name is Maxim Litvinov, I am Creative Front-End Developer using HTML + CSS + JS">
+    <meta name="keywords" content="CSS,JS,HTML,front-end,developer,web design, web designer, front-end developer,maxim litvinov,Maxim Litvinov,maxim litvinov web disgner">
     <meta property="og:title" content="Maxim Litvinov Creative Front-End Developer" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://s8.hostingkartinok.com/uploads/images/2019/10/931e88b1152efb025d5af299af4c9025.png" />
@@ -27,14 +27,15 @@
     <!-- icon -->
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Font Awesome -->
-    <link href="https://fonts.googleapis.com/css?family=Jura|Odibee+Sans|Raleway:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jura|Raleway:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Material Design Bootstrap -->
     <link rel="stylesheet" href="css/mdb.min.css">
-    <!-- Your custom styles (optional) -->
+    <!-- custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -91,12 +92,12 @@
             <div class="mask rgba-black-strong">
                 <div class="container-fluid d-flex align-items-center justify-content-center h-100">
                     <div class="row d-flex justify-content-center text-center">
-                        <div class="col-md-12">
-                            <h2 class="font-weight-bold white-text container-fluid text-center" style="font-size:5rem;">
+                        <div class="col-md-12 wow zoomIn" data-wow-duration=".5s">
+                            <h2 class="font-weight-bold white-text container-fluid text-center" style="font-size:6.4rem; letter-spacing:0.10em;">
                                 Maxim Litvinov
                             </h2>
                             <hr class="hr-light">
-                            <h4 class="white-text my-4 pl-5 font-weight-light" style="font-size:2.3rem;">Creative Front-End Developer</h4>
+                            <h4 class="white-text my-4 pl-5 font-weight-light" style="font-size:2.4rem;">Creative Front-End Developer</h4>
 
                             <!-- <button type="button" class="btn btn-outline-white btn-rounded-lg waves-effect waves-light">
                                 <a href="#main-container">Scroll Down <i class="fas fa-arrow-circle-down fa-3x ml-3 animated pulse infinite slow"></i></a>
@@ -117,12 +118,12 @@
     </header>
     <main class="mt-5" id="section-main">
         <div class="container">
-            <section id="section-best-features" class="text-center">
+            <section id="section-best-features" class="text-center wow fadeInUp" data-wow-delay=".15s">
                 <h2 class="mb-5 font-weight-bold ">My Skills</h2>
                 <div class="row d-flex justify-content-center mb-4 ">
                     <div class="col-md-8 ">
-                        <p class="grey-text ">
-                            Hey, my name is Maxim Litvinov and this is my Single Page Application. I am creative Front-End Develover using HTML5, CSS3 and JS.
+                        <p class="grey-text wow fadeInUp ">
+                            Hey, my name is Maxim Litvinov. I am creative Front-End Develover using HTML5 + CSS3 + JS and jQuery. If you need website just text me ;)
                         </p>
                     </div>
                 </div>
@@ -156,9 +157,9 @@
             <hr class="my-5 ">
 
             <section class="examples text-center" id="section-last-projects">
-                <h2 class="mb-5 font-weight-bold" id="portfolio">Latest Projects</h2>
+                <h2 class="mb-5 font-weight-bold wow fadeInLeftBig" id="portfolio" data-wow-delay="0.015s">Latest Projects</h2>
                 <div class="row ">
-                    <div class="col-lg-4 col-md-12 mb-4 ">
+                    <div class="col-lg-4 col-md-12 mb-4 wow fadeInLeftBig" data-wow-delay="0.3s" data-wow-duration=".8s">
                         <div class="view overlay zoom hoverable ">
                             <img src="img/SPA.jpeg" alt=" " class="img-fluid">
                             <div class="mask flex-center "></div>
@@ -167,7 +168,7 @@
                         <h4 class="my-4 font-weight-bold ">Single Page Application</h4>
                         <p class="grey-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero dolore accusantium inventore.</p>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4 ">
+                    <div class="col-lg-4 col-md-6 mb-4 wow fadeInLeftBig" data-wow-delay="0.6s" data-wow-duration=".6s">
                         <div class="view overlay zoom hoverable ">
                             <img src="img/landing-page.jpg" alt=" " class="img-fluid">
                             <div class="mask flex-center "></div>
@@ -176,7 +177,7 @@
                         <h4 class="my-4 font-weight-bold ">Landing Page</h4>
                         <p class="grey-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero dolore accusantium inventore.</p>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-4 ">
+                    <div class="col-lg-4 col-md-6 mb-4 wow fadeInLeftBig" data-wow-delay="0.9s" data-wow-duration=".4s">
                         <div class="view overlay zoom hoverable ">
                             <img src="img/projects.jpg" alt=" " class="img-fluid">
                             <div class="mask flex-center "></div>
@@ -191,7 +192,7 @@
 
             <hr class="my-5">
             <div id="aboutme"></div>
-            <section id="section-gallery">
+            <section id="section-gallery" class="wow fadeInRightBig">
                 <h2 class="mb-5 font-weight-bold text-center">About me</h2>
                 <div class="row">
                     <div class="col-md-6 mb-4">
@@ -206,13 +207,28 @@
                         <p style="font-size:1.1rem;">I have been working with technology since I got my first PC in 2007. While I was an avid gamer I was never interested only in games, I always liked looking behind what I saw to see how it all worked. I quickly became the 'computer
                             guy' to my family and friends and today I am a front-end developer. And i like it! While I learned programming language in high school my path became clear. In 2018 I became a student of "North Caucasus Branch Moscow Technical
                             University of Communication and Information Technology". And now I'm learning hard html, css, js and different frameworks for this programming languages.</p>
-                        <p>Message me:</p>
+                        <span style="font-size:1.1rem;">I am here:</span>
+                        <div class="link-about-me">
+                            <a href="https://www.linkedin.com/in/maximlitvinovin/" class="waves-effect waves-light" style="color:#11171A;" target="_blank">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a href="https://github.com/maximlitvinov" class="waves-effect waves-light" target="_blank" style="color:#11171A;">
+                                <i class="fab fa-github-square fa-2x"></i>
+                            </a>
+                            <a href="https://vk.com/maximlitvinov_v" class="waves-effect waves-light" target="_blank" style="color:#11171A;">
+                                <i class="fab fa-vk fa-2x"></i>
+                            </a>
+                            <a href="https://www.instagram.com/thelistik" class="waves-effect waves-light" target="_blank" style="color:#11171A;">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </section>
 
             <hr class="my-5 ">
-            <section id="section-contact">
+            <section id="section-contact" class="wow fadeInDown">
                 <h2 class="mb-5 font-weight-bold text-center" id="contact" s>Contact me</h2>
                 <div class="row ">
                     <div class="col-lg-5 col-md-12 ">
@@ -247,7 +263,7 @@
             </section>
         </div>
     </main>
-    <footer>
+    <footer class="wow fadeInUp">
         <div class="footer-copyright text-center py-3 white-text">© 2020 Copyright:
             <a href="#"> Maxim-Litvinov.com</a>
         </div>
@@ -261,6 +277,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script type="text/javascript">
         $(function() {
             var scroll = new SmoothScroll('a[href*="#section-"]');
