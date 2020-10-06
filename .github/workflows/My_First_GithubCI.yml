@@ -1,0 +1,32 @@
+name: My-GitHub-Actions
+
+on:
+ push:
+     branches:
+     - master
+
+
+jobs:
+  my-build-app:
+
+    runs-on: ubuntu-latest
+
+    steps:
+        - name: Print Hello Message
+          run : echo "Hello it is a building job message"
+
+  my-testing-app:
+
+    runs-on: ubuntu-latest
+
+    steps:
+        - name: Print Hello Message
+          run : echo "Hello it is a testing job message"
+
+  my-deploy-app:
+
+    runs-on: ubuntu-latest
+
+    steps:
+        - name: Print Hello Message
+          run : echo "Hello it is a deploy job message"
