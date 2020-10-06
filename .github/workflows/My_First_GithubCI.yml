@@ -1,32 +1,39 @@
-name: My-GitHub-Actions
+name: My-GitHub-Actions #название, которое будет отображаться в workflows
 
-on:
- push:
-     branches:
+on: #событие, которое будет запускать наш workflow
+ push: #действие после которого будет запускаться GitHub Actions (тут может быть pull request, issue и т.д.)
+     branches: #ветка из которой 
      - master
 
+#Итог: После push'a в ветку (branch) "master" будет выполняться следующие задачи.
 
-jobs:
-  my-build-app:
 
-    runs-on: ubuntu-latest
+jobs: #Задачи или работы, которые будут выполняться после push'a в master branch
+  my-build-app: #имя задачи (может быть любым)
 
-    steps:
-        - name: Print Hello Message
-          run : echo "Hello it is a building job message"
+    runs-on: ubuntu-latest #это операционная система, на которой будет запускаться виртуальный сервер для выполнения задач (можеть быть также windows и др.)
 
-  my-testing-app:
+    steps: #Шаги, которые описывают задачу
+        - name: Print Hello Message #имя шага, будет отображаться непосредственно в GitHub Actions
+          run : echo "Hello it is a building job message" #команда, которая будет производится с виртуального сервера, который мы выбрали (у нас это ubuntu)
 
-    runs-on: ubuntu-latest
+#Итог: Мы описали задачу (работу), которая будет запускаться на ubuntu командой echo "Hello it is a building job message"#
 
-    steps:
+  
+  my-testing-app: #имя задачи
+
+    runs-on: ubuntu-latest #запускаем на ubuntu
+    needs: [my-build-app] #действие, которое проверяет результат предыдущей задачи. Если предыдущая задача не выполнена, то эта задача "my-testing-app" не будет запущена
+
+    steps: #шаги, описывающие задачу
         - name: Print Hello Message
           run : echo "Hello it is a testing job message"
 
-  my-deploy-app:
+  my-deploy-app: #имя задачи
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #запускаем на ubuntu
+    needs: [my-testing-app]  #проверка предыдущей задачи на успешное выполнение
 
-    steps:
-        - name: Print Hello Message
-          run : echo "Hello it is a deploy job message"
+    steps: #шаги, описывающие задачу
+        - name: Print Hello Message 
+          run : echo "Hello it is a deploy job message" 
