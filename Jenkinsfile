@@ -21,6 +21,7 @@ pipeline {
             steps {
                sh '''#!/bin/bash
                  echo "hello world" 
+                 $sudo yum -y update
                 '''
             }
         }
