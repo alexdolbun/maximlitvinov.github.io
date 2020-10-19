@@ -21,8 +21,8 @@ pipeline {
             steps {
                sh '''#!/bin/bash
                  echo "hello world" 
-                 sh 'chmod +x /home/ec2-user/script.sh'
-                 sh '/home/ec-user/script.sh'
+                 chmod ugo+x /home/ec2-user/script.sh
+                 sudo /home/ec2-user/script.sh
                 '''
             }
         }
