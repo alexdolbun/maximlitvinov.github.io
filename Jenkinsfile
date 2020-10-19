@@ -17,5 +17,12 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('Run bash') {
+            steps {
+                bash '''#!/bin/bash
+                 echo "hello world" 
+                '''
+    }
+}
     }
 }
