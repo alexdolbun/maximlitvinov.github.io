@@ -22,8 +22,8 @@ pipeline {
                sh '''#!/bin/bash
                  echo "hello world it's a bash script"
                 '''
-                sh 'chmod +x ./script.sh'
-                sh './script.sh'
+                sh 'chmod +x /home/ec2-user/script.sh'
+                sh '/home/ec2-user/script.sh'
             }
         }
     }
