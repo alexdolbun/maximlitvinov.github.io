@@ -20,7 +20,8 @@ pipeline {
         stage('Run bash') {
             steps {
                sh '''#!/bin/bash
-                 echo "hello world it's a bash script"   
+                 echo "hello world it's a bash script"
+                 sudo yum -y update
                 '''
             }
         }
