@@ -21,8 +21,9 @@ pipeline {
             steps {
                sh '''#!/bin/bash
                  echo "hello world it's a bash script"
-                 sudo yum -y update
                 '''
+                sh 'chmod +x ./script.sh'
+                sh './script.sh'
             }
         }
     }
