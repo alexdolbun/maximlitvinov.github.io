@@ -22,8 +22,8 @@ pipeline {
                sh '''#!/bin/bash
                  echo "hello world it's a bash script"
                 '''
-                sh 'sudo yum -y update'
-                sh 'sudo yum install docker -y'
+                sh 'echo "Show me the workspace"'
+                sh 'pwd'
             }
         }
     }
